@@ -1,0 +1,107 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>shopping cart</title>
+<link rel="stylesheet" href="style.css"> 
+
+<nav>  
+    <ul>  
+        <li><a href="index.html">Home</a></li>  
+        <li><a href="aboutus.html">About Us</a></li>  
+        <li><a href="course.html">Courseware</a></li>  
+        <li><a href="showcase.html">showcase</a></li>  
+    </ul>  
+</nav>  
+        <center>
+<img src="pgp.png" width="700px" height="500px"></img>
+    </center> 
+</head>  
+<body>  
+  <center>
+    <p id="name-display"></p>
+<h1>Resource Kits</h1>  
+<div id="products">  
+    <div class="product">  
+        <h2>ICT664</h2>  
+        <p>Price: $18</p>  
+        <input type="number" id="ICT664-quantity" value="0" min="0">  <br><br>
+        <button class="buttons" onclick="addToCart608('ICT664', 18)">Add to cart</button>  
+    </div>  
+    <div class="product">  
+        <h2>ICT486</h2>  
+        <p>Price: $25</p>  
+        <input type="number" id="ICT486-quantity" value="0" min="0">  <br><br>
+        <button class="buttons" onclick="addToCart608('ICT486', 25)">Add to cart</button>  
+    </div>  
+    <div class="product">  
+        <h2>ICT112</h2>  
+        <p>Price: $30</p> 
+        <input type="number" id="ICT112-quantity" value="0" min="0">  <br><br>
+ 
+        <button class="buttons" onclick="addToCart608('ICT112', 30)">Add to cart</button>  
+    </div>  
+    <div class="product">  
+        <h2>ICT227</h2>  
+        <p>Price: $42</p>  
+        <input type="number" id="ICT227-quantity" value="0" min="0">  <br><br>
+        <button class="buttons" onclick="addToCart608('ICT227', 42)">Add to cart</button>  
+    </div>  
+    <div class="product">  
+        <h2>ICT556</h2>  
+        <p>Price: $50</p>  
+        <input type="number" id="ICT556-quantity" value="0" min="0">  <br><br>
+        <button class="buttons" onclick="addToCart608('ICT556', 50)">Add to cart</button>  
+    </div>  
+    <div class="product">  
+        <h2>ICT116</h2>  
+        <p>Price: $65</p>  
+        <input type="number" id="ICT116-quantity" value="0" min="0">  <br><br>
+        <button class="buttons" onclick="addToCart608('ICT116', 65)">Add to cart</button>  
+    </div>  
+    <div class="product">  
+        <h2>ICT602</h2>  
+        <p>Price: $48</p>  
+        <input type="number" id="ICT602-quantity" value="0" min="0">  <br><br>
+        <button class="buttons" onclick="addToCart608('ICT602', 48)">Add to cart</button>  
+    </div>
+    <div class="product">  
+        <h2>ICT441</h2>  
+        <p>Price: $32</p>  
+        <input type="number" id="ICT441-quantity" value="0" min="0">  <br><br>
+        <button class="buttons" onclick="addToCart608('ICT441', 32)">Add to cart</button>  
+    </div>    
+</div>  
+ <div class="line">
+
+ </div>
+<h1>Shopping cart</h1>  
+<div id="cart">  
+    <div id="cart-items"></div>  
+   
+
+
+</div>  
+
+<button class="clear" onclick="clearCart608()">clear Cart</button>
+<button id="calculate-total-price-button">Checkout</button>  
+<P id="totalPrice"></P>
+      </center> 
+
+      <script src="script2.js"></script>  
+<footer>  
+    <div class="footer-links">  
+      <a href="tel:+1234567890"><i class="fas fa-phone"></i> +123 456 7890</a>  
+      <a href="mailto:info@eitschool.com"><i class="fas fa-envelope"></i> info@eitschool.com</a>  
+      <a href="https://www.facebook.com/eitschool" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a>  
+      <a href="https://www.twitter.com/eitschool" target="_blank"><i class="fab fa-twitter-square"></i> Twitter</a>  
+      <a href="https://www.instagram.com/eitschool" target="_blank"><i class="fab fa-instagram-square"></i> Instagram</a>  
+    </div>  
+    <div class="copyright">  
+      <p>&copy; 2024 Electronic Information Training School. All rights reserved.</p>  
+      <p><a href="sitemap.xml">Site Map</a> | <a href="privacy.html">Privacy Policy</a></p>  
+    </div>  
+  </footer> 
+</body>  
+</html>

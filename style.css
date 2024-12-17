@@ -1,0 +1,138 @@
+  /*Iverson(HouYanchao)*/
+    /*Iverson(HouYanchao)*/
+    /*Iverson(HouYanchao)*/
+
+    body {  
+        font-family: Arial, sans-serif;  
+        margin: 0;  
+        padding: 0; 
+       
+    }  
+      
+    header {  
+        background-color: #333;  
+        color: #fff;  
+        padding: 10px;  
+        text-align: center;  
+    }  
+    
+    nav ul {  
+        list-style-type: none;  
+        margin: 0;  
+        padding: 0;  
+        overflow: hidden;  
+        background-color: #f3f3f3;  
+    }  
+      
+    nav li {  
+        float: left;  
+    }  
+      
+    nav li a {  
+        display: block;  
+        color: #666;  
+        text-align: center;  
+        padding: 14px 16px;  
+        text-decoration: none;  
+    }  
+      
+    nav li a:hover {  
+        background-color: #ddd;  
+    }  
+      
+    section {  
+        padding: 20px;  
+    }  
+     
+    #remove{
+        background-color: #2f2e31;
+        color: white;
+        border: none;  
+      border-radius: 4px; 
+      padding: 8px 20px;  
+    }
+    #total{
+        font-family: Arial, sans-serif;  
+      font-size: 30px;  
+      color: #0b0b0b;  
+    }
+    #totalPrice{
+        font-family: Arial, sans-serif;  
+      font-size: 30px;  
+      color: #0b0b0b;  
+    }
+    
+    .buttons{
+        background-color: #3a13ea;
+        color: white;
+        border: none;  
+      border-radius: 4px; 
+      padding: 12px 28px;  
+    }
+    .line{
+        width: 1300px;  
+            height: 5px; 
+            background-color: #070707; 
+    }
+    .clear{
+        background-color: #3a13ea;
+        color: white;
+        border: none;  
+      border-radius: 4px; 
+      padding: 12px 28px; 
+    }
+    .product {  
+      display: inline-block;  
+      vertical-align: top;   
+      margin-right: 10px; 
+    }  
+      
+    
+    .product:last-child {  
+      margin-right: 0;  
+    }
+        .product {  
+            margin-bottom: 20px;  
+            width: 300px;  
+            height: 220px;  
+            background-color: #f2f2f2; 
+        } 
+        
+       
+        
+        .cart-item {  
+            margin-bottom: 10px; 
+           
+        }  
+        #calculate-total-price-button{
+            background-color: #3a13ea;
+        color: white;
+        border: none;  
+      border-radius: 4px; 
+      padding: 12px 28px;  
+        }
+        footer {  
+        background-color: #333;  
+        color: #fff;  
+        padding: 20px;  
+        text-align: center;  
+        font-size: 14px;  
+      }  
+      footer a {  
+        color: #fff;  
+        text-decoration: none;  
+        margin: 0 5px;  
+      }  
+      footer a:hover {  
+        color: #ccc;  
+      }  
+      .footer-links {  
+        margin-bottom: 10px;  
+      }  
+      .footer-links a {  
+        display: inline-block;  
+        margin: 0 5px;  
+      }  
+      .copyright {  
+        margin-top: 10px;  
+      }  
